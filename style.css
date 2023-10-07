@@ -1,0 +1,101 @@
+/* FONT IMPORT */
+@font-face {
+    font-family: myfont1;
+    src: url("font1.ttf");
+}
+
+@font-face {
+    font-family: myfont2;
+    src: url(Minecraft.ttf);
+}
+
+html{
+    font-size: 20px;
+    font-family: myfont2;
+    background-color :#1F1F1F;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: magenta
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.container{
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.sub{
+    margin-top: 20px;
+}
+
+.sub-title{
+    background-color: black;
+    padding: 10px;
+    border-radius: 2px;
+    margin: 4px;
+
+}
+
+.sub-row{
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+}
+
+.sub-column{
+    padding: 10px;
+    margin: 4px;
+    border-radius: 2px;
+    background-color: grey;
+}
+
+.sub-stat{
+    padding: 10px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* For the smartphone */
+@media screen and (max-width: 591px) {
+  
+    html{
+        background-color: red;
+    }
+
+    .container{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .sub-row{
+        padding-top: 10px;
+        display: grid;
+        grid-template-columns: 99% ;
+        grid-template-rows: 100%;
+    }  
+
+    .sub-column{
+        padding: 10px;
+        margin: 4px;
+        border-radius: 2px;
+        background-color: grey;
+    }
+
+    .sub-stat{
+        padding: 10px;
+    }
+
+
+
+}
