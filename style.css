@@ -153,3 +153,15 @@ footer{
     background-color: grey;
     font-weight: bold;
 }
+
+.table-head .vote{
+    flex: 20%;
+}
+
+.table-head .subject{
+    flex: 60%
+}
+
+.table-head .replies{
+    flex: 20%
+}
