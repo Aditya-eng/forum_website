@@ -201,3 +201,65 @@ input{
 .table-row .replies{
     flex: 25%;
 }
+
+
+/* detail.html */
+
+.head{
+    display: flex;
+    background-color: #2c2c2c;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.authors{
+    flex: 20%;
+}
+
+.content{
+    flex: 80%;
+}
+
+.body{
+    display: flex;
+    background-color: #131415;
+    padding: 10px;
+    margin: 10px;
+}
+
+.body .authors .username{
+    font-size: 20px;
+}
+
+.body .authors img{
+    max-width: 50px;
+}
+
+.body .content .comment button{
+    border: none;
+    padding: 10px;
+    font-weight: bolder;
+    box-shadow: 4px 6px white;
+    cursor: pointer;
+    float: right;
+}
+
+/* comment area */
+
+.comment-area{
+    margin: 20px;
+}
+
+.comment-area textarea{
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.comment-area input{
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+}
